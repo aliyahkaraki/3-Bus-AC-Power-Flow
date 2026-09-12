@@ -5,10 +5,19 @@ Python implementation of a Newton–Raphson AC load-flow analysis for a three-bu
 
 The model calculates bus voltage magnitudes and angles, line power flows and network losses. It also compares a base-load case with increased demand and distributed solar generation.
 
-Key results
+## Key Results
 
-Base case: Bus 3 voltage = 0.9738 pu, losses = 2.24 MW
-High demand: Bus 3 voltage = 0.9672 pu, losses = 2.91 MW
-20 MW solar: Bus 3 voltage = 0.9821 pu, losses = 1.67 MW
+- **Base case:** Bus 3 voltage = 0.9738 pu, losses = 2.24 MW
+- **High demand:** Bus 3 voltage = 0.9672 pu, losses = 2.91 MW
+- **20 MW solar:** Bus 3 voltage = 0.9821 pu, losses = 1.67 MW
 
-Tools: Python, NumPy, Matplotlib
+## Tools
+
+- Python
+- NumPy
+- Matplotlib
+- Google Colab
+
+## Key Findings
+
+Increasing demand reduced the Bus 3 voltage and increased network losses. Adding 20 MW of distributed solar improved the voltage profile and reduced losses by decreasing the amount of real power transferred through the network.
