@@ -16,7 +16,6 @@ The model calculates bus voltage magnitudes and angles, line power flows and net
 - Python
 - NumPy
 - Matplotlib
-- Google Colab
 
 ## Key Findings
 
